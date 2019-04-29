@@ -5,12 +5,12 @@ let passengerId = 0;
 let tripId = 0;
 
 class Driver {
-  constructor(name) {
-    this.id = ++driverId;
-    this.name = name;
+  constructor(name, passenger) {
+    this.id = ++driverId
+    this.name = name
 
-    store.drivers.push(this);
-  };
+    store.drivers.push(this)
+  }
 }
 
 class Passenger {
