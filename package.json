@@ -26,5 +26,8 @@
   "homepage": "https://github.com/learn-co-curriculum/js-object-oriented-class-relations-lab#readme",
   "devDependencies": {
     "learn-browser": "^0.1.13"
+  },
+  "dependencies": {
+    "qs": "^6.7.0"
   }
 }
